@@ -1,3 +1,4 @@
+/*
 * Question : 1050. Actors and Directors Who Cooperated At Least Three Times
                                                               From LeetCode
 
@@ -45,7 +46,7 @@
       Explanation: The only pair is (1, 1) where they cooperated exactly 3 times.
 
 
-* MyAnswer : 
+* MyAnswer : */
 
       SELECT  actor_id,
               director_id
@@ -55,9 +56,10 @@
       HAVING  COUNT(actor_id) >= 3;
 
 
-
+/*
 * Output : 
 
       | actor_id | director_id |
       | -------- | ----------- |
       | 1        | 1           |
+*/
